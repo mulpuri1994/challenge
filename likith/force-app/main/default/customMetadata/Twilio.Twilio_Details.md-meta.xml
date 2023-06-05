@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Twilio Details</label>
+    <protected>false</protected>
+    <values>
+        <field>AccountSid__c</field>
+        <value xsi:type="xsd:string">AC64352b29b7a8108b667d21a58dc1e4f3</value>
+    </values>
+    <values>
+        <field>Auth_Token__c</field>
+        <value xsi:type="xsd:string">8be8e17083247708c47321e3a7613f06</value>
+    </values>
+    <values>
+        <field>CEO_Number__c</field>
+        <value xsi:type="xsd:string">+447417571176</value>
+    </values>
+    <values>
+        <field>From_Phone_Number__c</field>
+        <value xsi:type="xsd:string">+19853048263</value>
+    </values>
+    <values>
+        <field>Twilio_URL__c</field>
+        <value xsi:type="xsd:string">https://api.twilio.com</value>
+    </values>
+    <values>
+        <field>Version__c</field>
+        <value xsi:type="xsd:string">3.2.0</value>
+    </values>
+</CustomMetadata>

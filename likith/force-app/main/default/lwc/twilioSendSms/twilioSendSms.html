@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Send SMS" icon-name="standard:action_list_component">
+        <div class="slds-grid slds-grid_vertical">
+            <div class="slds-col slds-size_1-of-1">
+                <lightning-input type="text" name="smsmessage" data-id="form" value={smsmessage} label="Enter Message" data-name="smsmessage"></lightning-input>
+            </div>
+            
+            <div class="slds-col slds-size_1-of-1">
+                <lightning-button variant="brand" label="Send SMS" onclick={handleClick} class="slds-m-left_x-small">></lightning-button>
+            </div>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,13 @@
+<template>
+	<lightning-card variant="Narrow" title="Send SMS to CEO" icon-name="standard:email">
+		<div class="slds-p-horizontal_small">
+			<div class="slds-p-around_medium lgc-bg">
+				<lightning-input type="text" label="Enter the text to send to CEO" onchange={handleInputChange}></lightning-input>
+			</div>
+		</div>
+		<p slot="footer">
+			<lightning-button label="Send SMS" title="Send SMS" onclick={sendSMS}>
+			</lightning-button>
+		</p>
+	</lightning-card>
+</template>
